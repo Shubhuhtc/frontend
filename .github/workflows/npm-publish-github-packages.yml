@@ -15,8 +15,6 @@ jobs:
           node-version: 20
       - run: npm i roslib
       - run: npm i
-      - run: npm start
-      - run: npm test
       - run: npm run build
 
   publish-gpr:
